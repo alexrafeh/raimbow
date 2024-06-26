@@ -1,0 +1,82 @@
+@font-face {
+    font-family:Raimbow-text;
+    src: url(Text/geizer/Geizer.otf);
+  }
+
+
+
+  .Nav-Bar{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    position:fixed;
+    z-index: 4;
+  }
+
+
+  .logoImg{
+    width: 200px;
+    height: 10vh;
+ 
+  }
+
+  .foot-first-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    gap: 45px;
+  }
+
+  .foot-second-part{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    border-radius: 20px;
+  }
+
+  .info-ubisoft{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(212, 212, 212, 0.603);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    
+    .info-ubisoft div{
+      overflow: scroll;
+      height: 100%;
+      width: 100%;
+      color: black;
+    }
+    
+    .info-ubisoft p{
+      margin-left:15px ;
+      margin-right:15px ;
+    }
+    
+    .info-rainbow{
+      width: 60%;
+      height: 100%;
+    
+    }
+    
+    .logo-foot{
+      width: 130px;
+      height: 60px;
+    }
+    
+    .h-foot{
+      font-size: 19px;
+    }
+    
